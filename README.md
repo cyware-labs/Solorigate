@@ -100,3 +100,4 @@ Stay tuned to this repository for more exclusive playbooks and detection methods
 - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/sunburst-supply-chain-attack-solarwinds
 - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-attacks-stealthy-attackers-attempted-evade-detection
 - https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline/
+- https://github.com/shewhohacks/Navigator-files/blob/main/SolarStorm.json
