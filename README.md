@@ -4,18 +4,18 @@
 ------------
 - [Introduction](#Introduction)
 - [Indicators](#Indicators)
-  -	[IP addresses](#IP Adresses)
-	-	[Domains](#Domain Indicators)
-	-	Hashes
-		-	[MD5](#MD5 Inidcators)
-		-	[SHA256](#SHA256 Indicators)
+  -	IP addresses
+  -	Domains
+  -	Hashes
+	-	MD5
+	-	SHA256
 - [Detection](#Detection) 
-	-	[YARA Rules](#YARA Rule)
-	-	[MITRE ATT&CK Mapping](#MITRE ATT&CK Mapping)
-- Mitigations
-	-	[Kill switch]
-	-	[Playbooks]
-- [Credits and further references]
+	-	YARA Rules
+	-	MITRE ATT&CK Mapping
+- [Mitigations](#Mitigation)
+	-	Kill switch
+	-	Playbooks
+- [Credits and Further Reading](#Credits-and-Further-Reading)
 
 
 ------------
@@ -72,7 +72,9 @@ This list can be found [here](https://github.com/cyware-labs/Solorigate/blob/mai
 Since the attack, TrustedSec has released an **incident response playbook** that can be found [here](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "here")
 
 ##### [Incident response playbook](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "Incident response playbook")
-###Credits and Further reading
+
+### Credits-and-Further-Reading
+
 The intelligenec community is a vibrant community that strives to help one another, especially during times of crisis. On that note, below we have compiled various materials we found to be extremely helpful and comprehensive.
 
 As the saying goes - ***United we stand, Divided we fall !***
