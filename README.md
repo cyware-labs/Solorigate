@@ -20,7 +20,7 @@
 
 ------------
 ### Introduction
-On the 8th of December 2020, the CEO of FireEye a global security vendor, announced their systems had been comprimised by a sophisticated threat actor, supposedly state sponsored. 
+On the 8th of December 2020, the CEO of FireEye, a global security vendor announced that their systems had been comprimised by a sophisticated threat actor, supposedly state sponsored. 
 
 Shortly after this announcement FireEye further disclosed that not only FireEye, but also multiple other companies had been comprimised by the supposedly state sponsored threat actor via a supply chain attack [dubbed campaign 'UNC2452'].
 
