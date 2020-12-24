@@ -1,4 +1,4 @@
-# MITRE ATT&CK Mapping to campaign UNC2452
+# MITRE ATT&CK Mapping for campaign UNC2452
 
 | ATT&CK Technique  | Technique Name  |
 | ------------ | ------------ |
