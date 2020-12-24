@@ -1,22 +1,22 @@
-# Solorigate - An aggregated view
-
+# Solorigate - An aggregated view for Defenders
 ### Table of contents
 
 ------------
-- Description 
-- Indicators
--	IP addresses
--	Domains
--	Hashes
--		MD5
--		SHA256
-- Detection 
--		YARA Rules
--		MITRE ATT&CK Mapping
+- [Introduction](#Introduction)
+- [Indicators](#Indicators)
+  -	[IP addresses](#IP Adresses)
+	-	[Domains](#Domain Indicators)
+	-	Hashes
+		-	[MD5](#MD5 Inidcators)
+		-	[SHA256](#SHA256 Indicators)
+- [Detection](#Detection) 
+	-	[YARA Rules](#YARA Rule)
+	-	[MITRE ATT&CK Mapping](#MITRE ATT&CK Mapping)
 - Mitigations
--		Kill switch
--		Playbooks
-- Credits and further references
+	-	[Kill switch]
+	-	[Playbooks]
+- [Credits and further references]
+
 
 ------------
 ### Introduction
@@ -54,24 +54,24 @@ The same can be found [here](https://github.com/cyware-labs/Solorigate/blob/main
 
 ##### [YARA Rule](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst.yara "YARA Rule")
 
-Along with the YARA rule, we have also aggregated a mapping to the **MITRE ATT&CK** framework for this campaign as well. 
+We have also aggregated a mapping to the **MITRE ATT&CK** framework for this campaign as well. 
 
 This mapping to ATT&CK can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/ATT%26CK_mapping.md "here")
 
 ##### [MITRE ATT&CK Mapping](https://github.com/cyware-labs/Solorigate/blob/main/data/ATT%26CK_mapping.md "MITRE ATT&CK Mapping")
 
-###Mitigation
+### Mitigation
 
 The intelligence community has also discovered that this particular strain of trojan contains a **kill switch** which kills itself if the domain *.avsvmcloud[.]com resolves to one of these IP's.
 
 This list can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/kill_switch.indicators "here")
 
-#####[ KILL Switches](https://github.com/cyware-labs/Solorigate/blob/main/data/kill_switch.indicators " KILL Switches")
+##### [KILL Switches](https://github.com/cyware-labs/Solorigate/blob/main/data/kill_switch.indicators " KILL Switches")
 
-###Playbooks
+### Playbooks
 Since the attack, TrustedSec has released an **incident response playbook** that can be found [here](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "here")
 
-#####[Incident response playbook](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "Incident response playbook")
+##### [Incident response playbook](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "Incident response playbook")
 ###Credits and Further reading
 The intelligenec community is a vibrant community that strives to help one another, especially during times of crisis. On that note, below we have compiled various materials we found to be extremely helpful and comprehensive.
 
