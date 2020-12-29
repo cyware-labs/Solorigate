@@ -1,0 +1,8 @@
+# This query monitors for the launch of svchost.exe with an image of NetSetUpSvc.dll.
+norm_id=WindowsSysmon label=Image label=Load parent_image="C:\Windows\System32\svchost.exe" image="*NetSetupSvc.dll"
+
+# This query monitors for file drops from solarwinds. The matching data must be further reviewed for maliciousness
+norm_id=WindowsSysmon event_id=11 source_image="*\solarwinds.businesslayerhost.exe" file IN ["*.exe","*.ps1","*.jpg","*.png","*.dll"]
+
+# This query looks for a solarwinds mage launching a powershell window/ command.
+norm_id=WinServer event_id=4688 parent_image="*\solarwinds.businesslayerhost.exe" image="*\powershell.exe" command IN ["*-ec *", "* -enc*"]
