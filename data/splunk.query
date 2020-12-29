@@ -1,0 +1,1 @@
+ sourcetype=http_user_agent="SolarWindsOrionImprovementClient/" | join type=inner uid [| search sourcetype=ssl | table uid,server_name] | search server_name!=".solarwinds.com"
