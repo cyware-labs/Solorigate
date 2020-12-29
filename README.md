@@ -16,6 +16,7 @@
 	-	Splunk Query
 	-	Sysmon Queries
 	-	Sigma Query
+	-	Rules by Fire Eye
 - [Mitigations](#Mitigation)
 	-	Kill switch
 	-	Playbooks
@@ -85,6 +86,10 @@ The intelligence community has also identified another webshell, 'SUPERNOVA' whi
 This Sigma query can be found [here](https://github.com/Neo23x0/sigma/blob/master/rules/web/web_solarwinds_supernova_webshell.yml)
 
 ##### [Sigma Queries](https://github.com/Neo23x0/sigma/blob/master/rules/web/web_solarwinds_supernova_webshell.yml)
+
+Global threat intelligence provieder Fire Eye has also released a series of Snort and YARA rules to detect Sunburst and Teardrop malwares used in Solorigate. These rules can be found [here](https://github.com/fireeye/sunburst_countermeasures/tree/main/rules)
+
+##### [Rules by Fire Eye](https://github.com/fireeye/sunburst_countermeasures/tree/main/rules)
 
 ### Mitigation
 
