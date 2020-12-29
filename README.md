@@ -9,9 +9,13 @@
   -	Hashes
 	-	MD5
 	-	SHA256
+	-	SHA1
 - [Detection](#Detection) 
 	-	YARA Rules
 	-	MITRE ATT&CK Mapping
+	-	Splunk Query
+	-	Sysmon Queries
+	-	Sigma Query
 - [Mitigations](#Mitigation)
 	-	Kill switch
 	-	Playbooks
@@ -47,6 +51,10 @@ A list of **sha256 indicators** can be found [here](https://github.com/cyware-la
 
 ##### [SHA256 Indicators](https://github.com/cyware-labs/Solorigate/blob/main/data/sha256.indicators "SHA256 Indicators")
 
+A list of **sha1 indicators** can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/sha1.indicators "here")
+
+##### [SHA1 Indicators](https://github.com/cyware-labs/Solorigate/blob/main/data/sha1.indicators "SHA1 Indicators")
+
 ### Detection
 Shortly after discovery of the Orion hack and indicators, global security vendor, FireEye also relaeased a **YARA rule** which is capable of detecting the trojanised version of Orion.
 
@@ -59,6 +67,24 @@ We have also aggregated a mapping to the **MITRE ATT&CK** framework for this cam
 This mapping to ATT&CK can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/ATT%26CK_mapping.md "here")
 
 ##### [MITRE ATT&CK Mapping](https://github.com/cyware-labs/Solorigate/blob/main/data/ATT%26CK_mapping.md "MITRE ATT&CK Mapping")
+
+If the victim is infected by the backdoor, the malware then proceeds to perform some additional downloads for further persistance. This can be monitored by the following splunk query. Note: This query uses Zeek logs as a data source, but can be mapped to a source of your choice
+
+This Splunk query can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/splunk.query)
+
+##### [Splunk Query](https://github.com/cyware-labs/Solorigate/blob/main/data/ATT%26CK_mapping.md "MITRE ATT&CK Mapping")
+
+We also have aggregated a series of Sysmon queries which can be monitored for potential use of the Sunburst backdoor. 
+
+These Sysmon queries can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/sysmon.query)
+
+##### [Sysmon Queries](https://github.com/cyware-labs/Solorigate/blob/main/data/sysmon.query)
+
+The intelligence community has also identified another webshell, 'SUPERNOVA' which has been used to laterally move across the network. Shortly after identification the community has also created sigma queries to detect access to SUPERNOVA webshell.
+
+This Sigma query can be found [here](https://github.com/Neo23x0/sigma/blob/master/rules/web/web_solarwinds_supernova_webshell.yml)
+
+##### [Sigma Queries](https://github.com/Neo23x0/sigma/blob/master/rules/web/web_solarwinds_supernova_webshell.yml)
 
 ### Mitigation
 
@@ -103,3 +129,25 @@ Stay tuned to this repository for more exclusive playbooks and detection methods
 - https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-attacks-stealthy-attackers-attempted-evade-detection
 - https://unit42.paloaltonetworks.com/solarstorm-supply-chain-attack-timeline/
 - https://github.com/shewhohacks/Navigator-files/blob/main/SolarStorm.json
+- https://www.logpoint.com/en/blog/detecting-solarwinds-orion-attack/
+- https://www.cisecurity.org/ms-isac/solarwinds/
+- https://github.com/sophos-cybersecurity/solarwinds-threathunt/blob/master/iocs.csv
+- https://labs.sentinelone.com/solarwinds-understanding-detecting-the-supernova-webshell-trojan/
+- https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trustwaves-action-response-to-the-fireeye-data-breach-solarwinds-orion-compromise/
+- https://www.dragos.com/blog/industry-news/responding-to-solarwinds-compromise-in-industrial-environments/
+- https://www.sumologic.com/blog/monitoring-solarwinds-supply-chain-attack-with-cloud-siem/
+- https://github.com/davisshannon/Splunk-Sunburst
+- https://www.fortinet.com/blog/threat-research/what-we-have-learned-so-far-about-the-sunburst-solarwinds-hack
+- https://www.mcafee.com/blogs/other-blogs/mcafee-labs/additional-analysis-into-the-sunburst-backdoor/
+- https://www.graylog.org/post/sunburst-backdoor-what-to-look-for-in-your-logs-now-interview-with-an-incident-responder
+- https://www.hornetsecurity.com/en/threat-research/solarwinds-sunburst-backdoor-assessment/
+- https://www.splunk.com/en_us/blog/security/sunburst-backdoor-detections-in-splunk.html
+- https://blog.runpanther.io/detecting-sunburst-malware-with-panther/
+- https://success.trendmicro.com/solution/000283368
+- https://www.varonis.com/blog/solarwinds-sunburst-backdoor-inside-the-stealthy-apt-campaign/
+- https://otx.alienvault.com/pulse/5fd8289cab970607370cf812
+- https://www.varonis.com/blog/solarwinds-sunburst-backdoor-inside-the-stealthy-apt-campaign/
+- https://unit42.paloaltonetworks.com/fireeye-solarstorm-sunburst/
+- https://blog.malwarebytes.com/detections/backdoor-sunburst/
+- https://www.optiv.com/solarwinds-orion-compromise
+- https://securityboulevard.com/2020/12/detecting-sunburst-solarigate-activity-in-retrospect-with-zeek-a-practical-example/
