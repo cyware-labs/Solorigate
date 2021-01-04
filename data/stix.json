@@ -1,0 +1,2025 @@
+{
+    "type": "bundle",
+    "id": "bundle--34ccc539-eae2-49f6-8b15-1fd27b46dbd6",
+    "objects": [
+        {
+            "type": "report",
+            "spec_version": "2.1",
+            "id": "report--34ccc539-eae2-49f6-8b15-1fd27b46dbd6",
+            "created_by_ref": "identity--395a9e00-a9b5-4f31-9ac1-57d5e721f295",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "SolarWinds Sunburst IOCs",
+            "description": "",
+            "published": "2020-12-15T03:08:12.119Z",
+            "object_refs": [
+                "identity--395a9e00-a9b5-4f31-9ac1-57d5e721f295",
+                "indicator--5c7155cc-1e8a-411b-a784-e6a491c905ba",
+                "indicator--17c50b5a-28d5-4846-b6df-6eb5c4a1a6be",
+                "indicator--459f31c9-a65b-4701-8e49-b5eddb8374b1",
+                "indicator--f2f410e9-01bb-4821-b575-ceb31a7e1929",
+                "indicator--68ae0ed7-15b7-4b4a-bb4a-09680bb5f798",
+                "indicator--214a476e-de40-4bb7-9ec5-4141a956d921",
+                "indicator--1e110e0e-bfe8-42c6-828a-3cb783cfa3e6",
+                "indicator--a6dc9918-ffca-475b-8c48-66a805555fb0",
+                "indicator--75a7b3be-7ff2-468e-84fe-fe8ffa1c273b",
+                "indicator--fa74ede5-bf1a-40b4-b08b-6106b1353f66",
+                "indicator--3eb152ff-823a-42e7-a5f4-d8eb6167f61b",
+                "indicator--99ae60bc-e359-446e-a3fa-a058f355aeb9",
+                "indicator--0f3cee5d-7025-416e-b64f-628a05eb1e1b",
+                "indicator--db04e7ff-6963-432b-b0be-c2d4849d6c03",
+                "indicator--7ca13f93-7433-404b-a208-69ccba3fa299",
+                "indicator--453eb3be-f431-45c0-90b7-f512540dc94a",
+                "indicator--c3665025-e76f-43ae-9843-7816b5ea0b1d",
+                "indicator--b90e620b-dde3-477e-8466-a715986c5c61",
+                "indicator--58c58f32-582e-4e86-ba98-ff14f5b8bdbc",
+                "indicator--c7d80ca7-ab3f-47f4-97a8-c6ed1e0d0da6",
+                "indicator--350eac0d-5af0-4d64-a6cc-3b8e4094382b",
+                "indicator--5a34d3a5-8085-470f-9f21-d97b445e7cf9",
+                "indicator--b22d4b29-4ebe-4039-862c-3fd21db8b4e6",
+                "indicator--f1da4ae6-af3d-49b9-9774-33c8fae9573a",
+                "indicator--23ece4c4-26e4-4900-96d3-61f47c4e3d48",
+                "indicator--ffd2c503-6f09-43d5-b848-1c48393ac96f",
+                "indicator--bce88a70-6d79-4b21-a4e9-807b19b8ea17",
+                "indicator--8999f0cb-fb5b-4a62-9350-2418d1628fe3",
+                "indicator--4a508f62-084c-4298-88c1-736f3ddedfff",
+                "indicator--e3e3a136-e47b-4098-8036-0ec6793abb83",
+                "indicator--fc73adc6-26c6-491c-80f9-91f90264c80a",
+                "indicator--e38c5ff7-8851-424f-aeab-817b712daa26",
+                "indicator--ded57fe9-4eb2-4e97-8768-1c1474ee983d",
+                "indicator--bd834138-4f77-44ce-b1cc-2719bab2f71f",
+                "indicator--85f79a96-2c68-4c9c-998b-dce6a5265ee3",
+                "indicator--ecd78267-17f3-46c1-ae00-4943ece203a5",
+                "indicator--be47ad6d-a2f5-4b9e-b2ad-60d6b11aa3de",
+                "indicator--a936efca-f95e-409e-b0f1-c463d1a7ec7b",
+                "indicator--865671ca-396f-4515-8126-402a86264fa2",
+                "indicator--619e780f-c34d-40c8-a6e6-cbf702fb7838",
+                "indicator--c9e731ab-8026-459b-8dec-9030c708a998",
+                "indicator--f8f06456-4e8a-4ddb-a83c-cfa447f96e88",
+                "indicator--4763c5a9-056d-409c-a4e4-80d090ec3069",
+                "indicator--7aaad85c-3185-4e90-86da-b06c23992b50",
+                "indicator--eac7ad18-fc6f-4812-8893-b106ccb64557",
+                "indicator--c45c3c49-733e-4752-8d89-b84430a2018a",
+                "indicator--4b8ecc2b-1595-402d-87bb-b83f16f90974",
+                "indicator--0bf5b8a9-7668-4775-91bd-850a96def40e",
+                "indicator--7dfbf473-9f1f-4f97-b895-86836a7dfcd9",
+                "indicator--cf2d36a4-7a59-4e33-a159-bf1d8d1c46bb",
+                "indicator--80dcd7dc-1e23-4083-8770-a485e0ddc9dd",
+                "indicator--1459402b-3d2f-46ce-b21a-2210b899115d",
+                "indicator--cbeae2b2-5f9b-4dc0-9458-eacdae925eff",
+                "indicator--6a6ce580-2b22-4f3f-9836-ab9fc031ccc1",
+                "indicator--f55569ef-a7cf-4b77-ba0b-30451ea9c18e",
+                "indicator--c3fe4448-625c-4fca-8160-8eb18f9bef9c",
+                "indicator--227e9ef1-f1b7-4576-95cd-689f1360cbd5",
+                "attack-pattern--71f85563-edff-4551-a103-1c176e2d2554",
+                "attack-pattern--948551fe-1c26-40a1-96c9-219d901d51bd",
+                "attack-pattern--0b14f73a-6fa1-4a92-95fd-d92f2faa53b0",
+                "attack-pattern--e3f4a6d3-d375-4adf-a7c7-03880d8cfef3",
+                "attack-pattern--9a5d882e-6fae-40ff-bcc4-f9b521e5a3d3",
+                "attack-pattern--a7c2829f-54c4-4828-9015-91ef9e66dbee",
+                "attack-pattern--56956e77-f38d-49d5-b440-f2a7a6c8bb46",
+                "attack-pattern--d3845fea-158f-4ffe-b5f3-e0065920f1e9",
+                "attack-pattern--95dccb80-186c-46d6-9732-43963b2a2f9b",
+                "attack-pattern--3591387d-375b-4f83-9e96-9684f5422b8a",
+                "attack-pattern--b5b67940-344d-445c-8f75-1ff7c7cefe8b",
+                "attack-pattern--1a485610-3cec-4c8a-aaec-34858c3d0d66",
+                "attack-pattern--34835d64-d67c-43f6-be71-a30d7da3cd6c",
+                "attack-pattern--66bd9977-3831-4d8a-b386-c0a6ce2f1857",
+                "attack-pattern--6152e14f-c08f-4f1d-9b9a-dc661971617c",
+                "attack-pattern--39e375c9-c366-4158-8441-d3f5d9402234",
+                "attack-pattern--07ac781a-0610-45b9-a433-68c5840c2b44",
+                "attack-pattern--feca17e1-34b0-4183-893d-7ff59754f2b2",
+                "attack-pattern--b4cfc199-0d4d-41ef-8046-55184e635a8c",
+                "attack-pattern--5e425206-96a8-4fb2-9162-328346dd1a4b",
+                "attack-pattern--9f5d44f8-de8a-4083-b203-e8f53ff996cd",
+                "attack-pattern--f62a4971-e157-4a0c-9642-99613f33cf99",
+                "attack-pattern--d35c44ce-d364-487a-9433-877f71d37f46",
+                "attack-pattern--254094da-7914-4df3-803a-1425bf94429c",
+                "attack-pattern--a015f14e-3644-4670-b914-a89420bf7753",
+                "attack-pattern--12b83df5-5027-4392-8d05-5f85d151614b"
+            ],
+            "labels": [
+                "threat-report"
+            ],
+            "external_references": [
+                {
+                    "source_name": "web",
+                    "url": "https://thehackernews.com/2020/12/us-agencies-and-fireeye-were-hacked.html"
+                },
+                {
+                    "source_name": "web",
+                    "url": "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html"
+                },
+                {
+                    "source_name": "web",
+                    "url": "https://github.com/fireeye/sunburst_countermeasures/blob/main/indicator_release/Indicator_Release_Hashes.csv"
+                }
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--395a9e00-a9b5-4f31-9ac1-57d5e721f295",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Open Threat Exchange",
+            "identity_class": "organization",
+            "contact_information": "https://otx.alienvault.com/"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5c7155cc-1e8a-411b-a784-e6a491c905ba",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = '6a57jk2ba1d9keg15cbg.appsync-api.eu-west-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--17c50b5a-28d5-4846-b6df-6eb5c4a1a6be",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'bb4lbhi544d10dtp6s3i0ov3602fj.appsync-api.eu-west-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--459f31c9-a65b-4701-8e49-b5eddb8374b1",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'k5kcubuassl3alrf7gm3.appsync-api.eu-west-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f2f410e9-01bb-4821-b575-ceb31a7e1929",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'mhdosoksaccf9sni9icp.appsync-api.eu-west-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--68ae0ed7-15b7-4b4a-bb4a-09680bb5f798",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'ihvpgv9psvq02ffo77et.appsync-api.us-east-2.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--214a476e-de40-4bb7-9ec5-4141a956d921",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = '7sbvaemscs0mc925tb99.appsync-api.us-west-2.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1e110e0e-bfe8-42c6-828a-3cb783cfa3e6",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'gq1h856599gqh538acqn.appsync-api.us-west-2.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a6dc9918-ffca-475b-8c48-66a805555fb0",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134",
+            "pattern": "[file:hashes.MD5 = '2c4a910a1299cdae2a4e55988a2f102e']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--75a7b3be-7ff2-468e-84fe-fe8ffa1c273b",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77",
+            "pattern": "[file:hashes.MD5 = 'b91ce2fa41029f6955bff20079468448']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fa74ede5-bf1a-40b4-b08b-6106b1353f66",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71",
+            "pattern": "[file:hashes.MD5 = '56ceb6d0011d87b6e4d7023d7ef85676']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3eb152ff-823a-42e7-a5f4-d8eb6167f61b",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6",
+            "pattern": "[file:hashes.MD5 = '846e27a652a5e1bfbd0ddd38a16dc865']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--99ae60bc-e359-446e-a3fa-a058f355aeb9",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "Cabinet_Archive",
+            "description": "MD5 of d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600",
+            "pattern": "[file:hashes.MD5 = '02af7cec58b9a5da1c542b5a32151ba1']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0f3cee5d-7025-416e-b64f-628a05eb1e1b",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = '019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--db04e7ff-6963-432b-b0be-c2d4849d6c03",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = '292327e5c94afa352cc5a02ca273df543f2020d0e76368ff96c84f4e90778712']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7ca13f93-7433-404b-a208-69ccba3fa299",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = '32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--453eb3be-f431-45c0-90b7-f512540dc94a",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = '53f8dfc65169ccda021b72a62e0c22a4db7c4077f002fa742717d41b3c40f2c7']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c3665025-e76f-43ae-9843-7816b5ea0b1d",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b90e620b-dde3-477e-8466-a715986c5c61",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--58c58f32-582e-4e86-ba98-ff14f5b8bdbc",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "Cabinet_Archive",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'd0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c7d80ca7-ab3f-47f4-97a8-c6ed1e0d0da6",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of 019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134",
+            "pattern": "[file:hashes.'SHA-1' = '2f1a5a7411d015d01aaee4535835400191645023']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--350eac0d-5af0-4d64-a6cc-3b8e4094382b",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77",
+            "pattern": "[file:hashes.'SHA-1' = '76640508b1e7759e548771a5359eaed353bf1eec']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--5a34d3a5-8085-470f-9f21-d97b445e7cf9",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of c15abaf51e78ca56c0376522d699c978217bf041a3bd3c71d09193efa5717c71",
+            "pattern": "[file:hashes.'SHA-1' = '75af292f34789a1c782ea36c7127bf6106f595e8']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b22d4b29-4ebe-4039-862c-3fd21db8b4e6",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6",
+            "pattern": "[file:hashes.'SHA-1' = 'd130bd75645c2433f88ac03e73395fba172ef676']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f1da4ae6-af3d-49b9-9774-33c8fae9573a",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "Cabinet_Archive",
+            "description": "SHA1 of d0d626deb3f9484e649294a8dfa814c5568f846d5aa02d4cdad5d041a29d5600",
+            "pattern": "[file:hashes.'SHA-1' = '1b476f58ca366b54f34d714ffce3fd73cc30db1a']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--23ece4c4-26e4-4900-96d3-61f47c4e3d48",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ffd2c503-6f09-43d5-b848-1c48393ac96f",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'appsync-api.eu-west-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bce88a70-6d79-4b21-a4e9-807b19b8ea17",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'appsync-api.us-east-1.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--8999f0cb-fb5b-4a62-9350-2418d1628fe3",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'appsync-api.us-east-2.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4a508f62-084c-4298-88c1-736f3ddedfff",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'appsync-api.us-west-2.avsvmcloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e3e3a136-e47b-4098-8036-0ec6793abb83",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc",
+            "pattern": "[file:hashes.MD5 = 'e18a6a21eb44e77ca8d739a72209c370']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fc73adc6-26c6-491c-80f9-91f90264c80a",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "MD5 of d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af",
+            "pattern": "[file:hashes.MD5 = '3e329a4c9030b26ba152fb602a1d5893']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e38c5ff7-8851-424f-aeab-817b712daa26",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ded57fe9-4eb2-4e97-8768-1c1474ee983d",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'ac1b2b89e60707a20e9eb1ca480bc3410ead40643b386d624c5d21b47c02917c']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bd834138-4f77-44ce-b1cc-2719bab2f71f",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'c09040d35630d75dfef0f804f320f8b3d16a481071076918e9b236a321c1ea77']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--85f79a96-2c68-4c9c-998b-dce6a5265ee3",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'd3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ecd78267-17f3-46c1-ae00-4943ece203a5",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'dab758bf98d9b36fa057a66cd0284737abf89857b73ca89280267ee7caf62f3b']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--be47ad6d-a2f5-4b9e-b2ad-60d6b11aa3de",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-256' = 'eb6fab5a2964c5817fb239a7a5079cabca0a00464fb3e07155f28b0a57a2c0ed']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a936efca-f95e-409e-b0f1-c463d1a7ec7b",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of a25cadd48d70f6ea0c4a241d99c5241269e6faccb4054e62d16784640f8e53bc",
+            "pattern": "[file:hashes.'SHA-1' = '5e643654179e8b4cfe1d3c1906a90a4c8d611cea']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--865671ca-396f-4515-8126-402a86264fa2",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "SHA1 of d3c6785e18fba3749fb785bc313cf8346182f532c59172b69adfb31b96a5d0af",
+            "pattern": "[file:hashes.'SHA-1' = 'ebe711516d0f5cd8126f4d53e375c90b7b95e8f2']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--619e780f-c34d-40c8-a6e6-cbf702fb7838",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'databasegalore.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c9e731ab-8026-459b-8dec-9030c708a998",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'deftsecurity.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f8f06456-4e8a-4ddb-a83c-cfa447f96e88",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'freescanonline.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4763c5a9-056d-409c-a4e4-80d090ec3069",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'highdatabase.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7aaad85c-3185-4e90-86da-b06c23992b50",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'incomeupdate.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--eac7ad18-fc6f-4812-8893-b106ccb64557",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'panhardware.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c45c3c49-733e-4752-8d89-b84430a2018a",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'thedoccloud.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4b8ecc2b-1595-402d-87bb-b83f16f90974",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'websitetheme.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0bf5b8a9-7668-4775-91bd-850a96def40e",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[domain_name:value = 'zupertech.com']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7dfbf473-9f1f-4f97-b895-86836a7dfcd9",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[ipv4-addr:value = '139.99.115.204']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "valid_until": "2021-01-14T00:00:00Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cf2d36a4-7a59-4e33-a159-bf1d8d1c46bb",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[ipv4-addr:value = '204.188.205.176']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "valid_until": "2021-01-14T00:00:00Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--80dcd7dc-1e23-4083-8770-a485e0ddc9dd",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[ipv4-addr:value = '5.252.177.21']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "valid_until": "2021-01-14T00:00:00Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1459402b-3d2f-46ce-b21a-2210b899115d",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[ipv4-addr:value = '5.252.177.25']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "valid_until": "2021-01-14T00:00:00Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cbeae2b2-5f9b-4dc0-9458-eacdae925eff",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[ipv4-addr:value = '51.89.125.18']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "valid_until": "2021-01-14T00:00:00Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--6a6ce580-2b22-4f3f-9836-ab9fc031ccc1",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-1' = '47d92d49e6f7f296260da1af355f941eb25360c4']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f55569ef-a7cf-4b77-ba0b-30451ea9c18e",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.'SHA-1' = 'c2c30b3a287d82f88753c85cfb11ec9eb1466bad']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c3fe4448-625c-4fca-8160-8eb18f9bef9c",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.MD5 = '08e35543d6110ed11fdf558bb093d401']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--227e9ef1-f1b7-4576-95cd-689f1360cbd5",
+            "created": "2020-12-15T03:08:12.000Z",
+            "modified": "2020-12-15T03:08:12.000Z",
+            "name": "",
+            "description": "",
+            "pattern": "[file:hashes.MD5 = '4f2eb62fa529c0283b28d05ddd311fae']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2020-12-15T03:08:12Z",
+            "labels": [
+                "malicious-activity"
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--71f85563-edff-4551-a103-1c176e2d2554",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Query Registry",
+            "description": "Adversaries may interact with the Windows Registry to gather information about the system, configuration, and installed software.\n\nThe Registry contains a significant amount of information about the operating system, configuration, software, and security.(Citation: Wikipedia Windows Registry) Information can easily be queried using the [Reg](https://attack.mitre.org/software/S0075) utility, though other means to access the Registry exist. Some of the information may help adversaries to further their operation within a network. Adversaries may use the information from [Query Registry](https://attack.mitre.org/techniques/T1012) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1012",
+                    "external_id": "T1012"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/647.html",
+                    "external_id": "CAPEC-647"
+                },
+                {
+                    "source_name": "Wikipedia Windows Registry",
+                    "description": "Wikipedia. (n.d.). Windows Registry. Retrieved February 2, 2015.",
+                    "url": "https://en.wikipedia.org/wiki/Windows_Registry"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--948551fe-1c26-40a1-96c9-219d901d51bd",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "System Network Configuration Discovery",
+            "description": "Adversaries may look for details about the network configuration and settings of systems they access or through information discovery of remote systems. Several operating system administration utilities exist that can be used to gather this information. Examples include [Arp](https://attack.mitre.org/software/S0099), [ipconfig](https://attack.mitre.org/software/S0100)/[ifconfig](https://attack.mitre.org/software/S0101), [nbtstat](https://attack.mitre.org/software/S0102), and [route](https://attack.mitre.org/software/S0103).\n\nAdversaries may use the information from [System Network Configuration Discovery](https://attack.mitre.org/techniques/T1016) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1016",
+                    "external_id": "T1016"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/309.html",
+                    "external_id": "CAPEC-309"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0b14f73a-6fa1-4a92-95fd-d92f2faa53b0",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Remote Services",
+            "description": "Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into a service specifically designed to accept remote connections, such as telnet, SSH, and VNC. The adversary may then perform actions as the logged-on user.\n\nIn an enterprise environment, servers and workstations can be organized into domains. Domains provide centralized identity management, allowing users to login using one set of credentials across the entire network. If an adversary is able to obtain a set of valid domain credentials, they could login to many different machines using remote access protocols such as secure shell (SSH) or remote desktop protocol (RDP).(Citation: SSH Secure Shell)(Citation: TechNet Remote Desktop Services)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1021",
+                    "external_id": "T1021"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/555.html",
+                    "external_id": "CAPEC-555"
+                },
+                {
+                    "source_name": "SSH Secure Shell",
+                    "description": "SSH.COM. (n.d.). SSH (Secure Shell). Retrieved March 23, 2020.",
+                    "url": "https://www.ssh.com/ssh"
+                },
+                {
+                    "source_name": "TechNet Remote Desktop Services",
+                    "description": "Microsoft. (n.d.). Remote Desktop Services. Retrieved June 1, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/windowsserver/ee236407.aspx"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e3f4a6d3-d375-4adf-a7c7-03880d8cfef3",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Obfuscated Files or Information",
+            "description": "Adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. This is common behavior that can be used across different platforms and the network to evade defenses. \n\nPayloads may be compressed, archived, or encrypted in order to avoid detection. These payloads may be used during Initial Access or later to mitigate detection. Sometimes a user's action may be required to open and [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) for [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016) Adversaries may also used compressed or archived scripts, such as JavaScript. \n\nPortions of files can also be encoded to hide the plain-text strings that would otherwise help defenders with discovery. (Citation: Linux/Cdorked.A We Live Security Analysis) Payloads may also be split into separate, seemingly benign files that only reveal malicious functionality when reassembled. (Citation: Carbon Black Obfuscation Sept 2016)\n\nAdversaries may also obfuscate commands executed from payloads or directly via a [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059). Environment variables, aliases, characters, and other platform/language specific semantics can be used to evade signature based detections and application control mechanisms. (Citation: FireEye Obfuscation June 2017) (Citation: FireEye Revoke-Obfuscation July 2017)(Citation: PaloAlto EncodedCommand March 2017) ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1027",
+                    "external_id": "T1027"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/267.html",
+                    "external_id": "CAPEC-267"
+                },
+                {
+                    "source_name": "Volexity PowerDuke November 2016",
+                    "description": "Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.",
+                    "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/"
+                },
+                {
+                    "source_name": "Linux/Cdorked.A We Live Security Analysis",
+                    "description": "Pierre-Marc Bureau. (2013, April 26). Linux/Cdorked.A: New Apache backdoor being used in the wild to serve Blackhole. Retrieved September 10, 2017.",
+                    "url": "https://www.welivesecurity.com/2013/04/26/linuxcdorked-new-apache-backdoor-in-the-wild-serves-blackhole/"
+                },
+                {
+                    "source_name": "Carbon Black Obfuscation Sept 2016",
+                    "description": "Tedesco, B. (2016, September 23). Security Alert Summary. Retrieved February 12, 2018.",
+                    "url": "https://www.carbonblack.com/2016/09/23/security-advisory-variants-well-known-adware-families-discovered-include-sophisticated-obfuscation-techniques-previously-associated-nation-state-attacks/"
+                },
+                {
+                    "source_name": "FireEye Obfuscation June 2017",
+                    "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html"
+                },
+                {
+                    "source_name": "FireEye Revoke-Obfuscation July 2017",
+                    "description": "Bohannon, D. & Holmes, L. (2017, July 27). Revoke-Obfuscation: PowerShell Obfuscation Detection Using Science. Retrieved February 12, 2018.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/blog/pdfs/revoke-obfuscation-report.pdf"
+                },
+                {
+                    "source_name": "PaloAlto EncodedCommand March 2017",
+                    "description": "White, J. (2017, March 10). Pulling Back the Curtains on EncodedCommand PowerShell Attacks. Retrieved February 12, 2018.",
+                    "url": "https://researchcenter.paloaltonetworks.com/2017/03/unit42-pulling-back-the-curtains-on-encodedcommand-powershell-attacks/"
+                },
+                {
+                    "source_name": "GitHub Revoke-Obfuscation",
+                    "description": "Bohannon, D. (2017, July 27). Revoke-Obfuscation. Retrieved February 12, 2018.",
+                    "url": "https://github.com/danielbohannon/Revoke-Obfuscation"
+                },
+                {
+                    "source_name": "GitHub Office-Crackros Aug 2016",
+                    "description": "Carr, N. (2016, August 14). OfficeCrackros. Retrieved February 12, 2018.",
+                    "url": "https://github.com/itsreallynick/office-crackros"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9a5d882e-6fae-40ff-bcc4-f9b521e5a3d3",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Masquerading",
+            "description": "Adversaries may attempt to manipulate features of their artifacts to make them appear legitimate or benign to users and/or security tools. Masquerading occurs when the name or location of an object, legitimate or malicious, is manipulated or abused for the sake of evading defenses and observation. This may include manipulating file metadata, tricking users into misidentifying the file type, and giving legitimate task or service names.\n\nRenaming abusable system utilities to evade security monitoring is also a form of [Masquerading](https://attack.mitre.org/techniques/T1036).(Citation: LOLBAS Main Site)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1036",
+                    "external_id": "T1036"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/177.html",
+                    "external_id": "CAPEC-177"
+                },
+                {
+                    "source_name": "LOLBAS Main Site",
+                    "description": "LOLBAS. (n.d.). Living Off The Land Binaries and Scripts (and also Libraries). Retrieved February 10, 2020.",
+                    "url": "https://lolbas-project.github.io/"
+                },
+                {
+                    "source_name": "Endgame Masquerade Ball",
+                    "description": "Ewing, P. (2016, October 31). How to Hunt: The Masquerade Ball. Retrieved October 31, 2016.",
+                    "url": "http://pages.endgame.com/rs/627-YBU-612/images/EndgameJournal_The%20Masquerade%20Ball_Pages_R2.pdf"
+                },
+                {
+                    "source_name": "Twitter ItsReallyNick Masquerading Update",
+                    "description": "Carr, N.. (2018, October 25). Nick Carr Status Update Masquerading. Retrieved April 22, 2019.",
+                    "url": "https://twitter.com/ItsReallyNick/status/1055321652777619457"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a7c2829f-54c4-4828-9015-91ef9e66dbee",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Scheduled Task/Job",
+            "description": "Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code. Utilities exist within all major operating systems to schedule programs or scripts to be executed at a specified date and time. A task can also be scheduled on a remote system, provided the proper authentication is met (ex: RPC and file and printer sharing in Windows environments). Scheduling a task on a remote system typically requires being a member of an admin or otherwise privileged group on the remote system.(Citation: TechNet Task Scheduler Security)\n\nAdversaries may use task scheduling to execute programs at system startup or on a scheduled basis for persistence. These mechanisms can also be abused to run a process under the context of a specified account (such as one with elevated permissions/privileges).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1053",
+                    "external_id": "T1053"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/557.html",
+                    "external_id": "CAPEC-557"
+                },
+                {
+                    "source_name": "TechNet Task Scheduler Security",
+                    "description": "Microsoft. (2005, January 21). Task Scheduler and security. Retrieved June 8, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/library/cc785125.aspx"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--56956e77-f38d-49d5-b440-f2a7a6c8bb46",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Process Discovery",
+            "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Adversaries may use the information from [Process Discovery](https://attack.mitre.org/techniques/T1057) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nIn Windows environments, adversaries could obtain details on running processes using the [Tasklist](https://attack.mitre.org/software/S0057) utility via [cmd](https://attack.mitre.org/software/S0106) or <code>Get-Process</code> via [PowerShell](https://attack.mitre.org/techniques/T1059/001). Information about processes can also be extracted from the output of [Native API](https://attack.mitre.org/techniques/T1106) calls such as <code>CreateToolhelp32Snapshot</code>. In Mac and Linux, this is accomplished with the <code>ps</code> command. Adversaries may also opt to enumerate processes via /proc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1057",
+                    "external_id": "T1057"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/573.html",
+                    "external_id": "CAPEC-573"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d3845fea-158f-4ffe-b5f3-e0065920f1e9",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Command and Scripting Interpreter",
+            "description": "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of [Unix Shell](https://attack.mitre.org/techniques/T1059/004) while Windows installations include the [Windows Command Shell](https://attack.mitre.org/techniques/T1059/003) and [PowerShell](https://attack.mitre.org/techniques/T1059/001).\n\nThere are also cross-platform interpreters such as [Python](https://attack.mitre.org/techniques/T1059/006), as well as those commonly associated with client applications such as [JavaScript/JScript](https://attack.mitre.org/techniques/T1059/007) and [Visual Basic](https://attack.mitre.org/techniques/T1059/005).\n\nAdversaries may abuse these technologies in various ways as a means of executing arbitrary commands. Commands and scripts can be embedded in [Initial Access](https://attack.mitre.org/tactics/TA0001) payloads delivered to victims as lure documents or as secondary payloads downloaded from an existing C2. Adversaries may also execute commands through interactive terminals/shells.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1059",
+                    "external_id": "T1059"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--95dccb80-186c-46d6-9732-43963b2a2f9b",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Indicator Removal on Host",
+            "description": "Adversaries may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware. Locations and format of logs are platform or product-specific, however standard operating system logs are captured as Windows events or Linux/macOS files such as [Bash History](https://attack.mitre.org/techniques/T1139) and /var/log/*.\n\nThese actions may interfere with event collection, reporting, or other notifications used to detect intrusion activity. This that may compromise the integrity of security solutions by causing notable events to go unreported. This activity may also impede forensic analysis and incident response, due to lack of sufficient data to determine what occurred.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1070",
+                    "external_id": "T1070"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/93.html",
+                    "external_id": "CAPEC-93"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3591387d-375b-4f83-9e96-9684f5422b8a",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Application Layer Protocol",
+            "description": "Adversaries may communicate using application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nAdversaries may utilize many different protocols, including those used for web browsing, transferring files, electronic mail, or DNS. For connections that occur internally within an enclave (such as those between a proxy or pivot node and other nodes), commonly used protocols are SMB, SSH, or RDP. ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1071",
+                    "external_id": "T1071"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b5b67940-344d-445c-8f75-1ff7c7cefe8b",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "System Information Discovery",
+            "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1082) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nTools such as [Systeminfo](https://attack.mitre.org/software/S0096) can be used to gather detailed system information. A breakdown of system data can also be gathered through the macOS <code>systemsetup</code> command, but it requires administrative privileges.\n\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.(Citation: Amazon Describe Instance)(Citation: Google Instances Resource)(Citation: Microsoft Virutal Machine API)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1082",
+                    "external_id": "T1082"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/312.html",
+                    "external_id": "CAPEC-312"
+                },
+                {
+                    "source_name": "Amazon Describe Instance",
+                    "description": "Amazon. (n.d.). describe-instance-information. Retrieved March 3, 2020.",
+                    "url": "https://docs.aws.amazon.com/cli/latest/reference/ssm/describe-instance-information.html"
+                },
+                {
+                    "source_name": "Google Instances Resource",
+                    "description": "Google. (n.d.). Rest Resource: instance. Retrieved March 3, 2020.",
+                    "url": "https://cloud.google.com/compute/docs/reference/rest/v1/instances"
+                },
+                {
+                    "source_name": "Microsoft Virutal Machine API",
+                    "description": "Microsoft. (2019, March 1). Virtual Machines - Get. Retrieved October 8, 2019.",
+                    "url": "https://docs.microsoft.com/en-us/rest/api/compute/virtualmachines/get"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1a485610-3cec-4c8a-aaec-34858c3d0d66",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "File and Directory Discovery",
+            "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1083) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nMany command shell utilities can be used to obtain this information. Examples include <code>dir</code>, <code>tree</code>, <code>ls</code>, <code>find</code>, and <code>locate</code>. (Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the [Native API](https://attack.mitre.org/techniques/T1106).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1083",
+                    "external_id": "T1083"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/127.html",
+                    "external_id": "CAPEC-127"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/497.html",
+                    "external_id": "CAPEC-497"
+                },
+                {
+                    "source_name": "Windows Commands JPCERT",
+                    "description": "Tomonaga, S. (2016, January 26). Windows Commands Abused by Attackers. Retrieved February 2, 2016.",
+                    "url": "http://blog.jpcert.or.jp/2016/01/windows-commands-abused-by-attackers.html"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--34835d64-d67c-43f6-be71-a30d7da3cd6c",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Web Service",
+            "description": "Adversaries may use an existing, legitimate external Web service as a means for relaying data to/from a compromised system. Popular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.\n\nUse of Web services may also protect back-end C2 infrastructure from discovery through malware binary analysis while also enabling operational resiliency (since this infrastructure may be dynamically changed).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1102",
+                    "external_id": "T1102"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--66bd9977-3831-4d8a-b386-c0a6ce2f1857",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Ingress Tool Transfer",
+            "description": "Adversaries may transfer tools or other files from an external system into a compromised environment. Files may be copied from an external adversary controlled system through the command and control channel to bring tools into the victim network or through alternate protocols with another tool such as FTP. Files can also be copied over on Mac and Linux with native tools like scp, rsync, and sftp.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1105",
+                    "external_id": "T1105"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6152e14f-c08f-4f1d-9b9a-dc661971617c",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Brute Force",
+            "description": "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Brute forcing passwords can take place via interaction with a service that will check the validity of those credentials or offline against previously acquired credential data, such as password hashes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1110",
+                    "external_id": "T1110"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/49.html",
+                    "external_id": "CAPEC-49"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--39e375c9-c366-4158-8441-d3f5d9402234",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "System Time Discovery",
+            "description": "An adversary may gather the system time and/or time zone from a local or remote system. The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nSystem time information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing <code>net time \\\\hostname</code> to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a [Scheduled Task/Job](https://attack.mitre.org/techniques/T1053) (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1124",
+                    "external_id": "T1124"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/295.html",
+                    "external_id": "CAPEC-295"
+                },
+                {
+                    "source_name": "MSDN System Time",
+                    "description": "Microsoft. (n.d.). System Time. Retrieved November 25, 2016.",
+                    "url": "https://msdn.microsoft.com/ms724961.aspx"
+                },
+                {
+                    "source_name": "Technet Windows Time Service",
+                    "description": "Mathers, B. (2016, September 30). Windows Time Service Tools and Settings. Retrieved November 25, 2016.",
+                    "url": "https://technet.microsoft.com/windows-server-docs/identity/ad-ds/get-started/windows-time-service/windows-time-service-tools-and-settings"
+                },
+                {
+                    "source_name": "RSA EU12 They're Inside",
+                    "description": "Rivner, U., Schwartz, E. (2012). They\u2019re Inside\u2026 Now What?. Retrieved November 25, 2016.",
+                    "url": "https://www.rsaconference.com/writable/presentations/file_upload/ht-209_rivner_schwartz.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--07ac781a-0610-45b9-a433-68c5840c2b44",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Data Encoding",
+            "description": "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result in data compression, such as gzip.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1132",
+                    "external_id": "T1132"
+                },
+                {
+                    "source_name": "Wikipedia Binary-to-text Encoding",
+                    "description": "Wikipedia. (2016, December 26). Binary-to-text encoding. Retrieved March 1, 2017.",
+                    "url": "https://en.wikipedia.org/wiki/Binary-to-text_encoding"
+                },
+                {
+                    "source_name": "Wikipedia Character Encoding",
+                    "description": "Wikipedia. (2017, February 19). Character Encoding. Retrieved March 1, 2017.",
+                    "url": "https://en.wikipedia.org/wiki/Character_encoding"
+                },
+                {
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
+                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--feca17e1-34b0-4183-893d-7ff59754f2b2",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Deobfuscate/Decode Files or Information",
+            "description": "Adversaries may use [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware or by using utilities present on the system.\n\nOne such example is use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file. (Citation: Malwarebytes Targeted Attack against Saudi Arabia) Another example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload. (Citation: Carbon Black Obfuscation Sept 2016)\n\nSometimes a user's action may be required to open it for deobfuscation or decryption as part of [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1140",
+                    "external_id": "T1140"
+                },
+                {
+                    "source_name": "Malwarebytes Targeted Attack against Saudi Arabia",
+                    "description": "Malwarebytes Labs. (2017, March 27). New targeted attack against Saudi Arabia Government. Retrieved July 3, 2017.",
+                    "url": "https://blog.malwarebytes.com/cybercrime/social-engineering-cybercrime/2017/03/new-targeted-attack-saudi-arabia-government/"
+                },
+                {
+                    "source_name": "Carbon Black Obfuscation Sept 2016",
+                    "description": "Tedesco, B. (2016, September 23). Security Alert Summary. Retrieved February 12, 2018.",
+                    "url": "https://www.carbonblack.com/2016/09/23/security-advisory-variants-well-known-adware-families-discovered-include-sophisticated-obfuscation-techniques-previously-associated-nation-state-attacks/"
+                },
+                {
+                    "source_name": "Volexity PowerDuke November 2016",
+                    "description": "Adair, S.. (2016, November 9). PowerDuke: Widespread Post-Election Spear Phishing Campaigns Targeting Think Tanks and NGOs. Retrieved January 11, 2017.",
+                    "url": "https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b4cfc199-0d4d-41ef-8046-55184e635a8c",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Supply Chain Compromise",
+            "description": "Adversaries may manipulate products or product delivery mechanisms prior to receipt by a final consumer for the purpose of data or system compromise.\n\nSupply chain compromise can take place at any stage of the supply chain including:\n\n* Manipulation of development tools\n* Manipulation of a development environment\n* Manipulation of source code repositories (public or private)\n* Manipulation of source code in open-source dependencies\n* Manipulation of software update/distribution mechanisms\n* Compromised/infected system images (multiple cases of removable media infected at the factory) (Citation: IBM Storwize) (Citation: Schneider Electric USB Malware) \n* Replacement of legitimate software with modified versions\n* Sales of modified/counterfeit products to legitimate distributors\n* Shipment interdiction\n\nWhile supply chain compromise can impact any component of hardware or software, attackers looking to gain execution have often focused on malicious additions to legitimate software in software distribution or update channels. (Citation: Avast CCleaner3 2018) (Citation: Microsoft Dofoil 2018) (Citation: Command Five SK 2011) Targeting may be specific to a desired victim set (Citation: Symantec Elderwood Sept 2012) or malicious software may be distributed to a broad set of consumers but only move on to additional tactics on specific victims. (Citation: Avast CCleaner3 2018) (Citation: Command Five SK 2011) Popular open source projects that are used as dependencies in many applications may also be targeted as a means to add malicious code to users of the dependency. (Citation: Trendmicro NPM Compromise)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1195",
+                    "external_id": "T1195"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/437.html",
+                    "external_id": "CAPEC-437"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/438.html",
+                    "external_id": "CAPEC-438"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/439.html",
+                    "external_id": "CAPEC-439"
+                },
+                {
+                    "source_name": "IBM Storwize",
+                    "description": "IBM Support. (2017, April 26). Storwize USB Initialization Tool may contain malicious code. Retrieved May 28, 2019.",
+                    "url": "https://www-01.ibm.com/support/docview.wss?uid=ssg1S1010146&myns=s028&mynp=OCSTHGUJ&mynp=OCSTLM5A&mynp=OCSTLM6B&mynp=OCHW206&mync=E&cm_sp=s028-_-OCSTHGUJ-OCSTLM5A-OCSTLM6B-OCHW206-_-E"
+                },
+                {
+                    "source_name": "Schneider Electric USB Malware",
+                    "description": "Schneider Electric. (2018, August 24). Security Notification \u2013 USB Removable Media Provided With Conext Combox and Conext Battery Monitor. Retrieved May 28, 2019.",
+                    "url": "https://www.se.com/ww/en/download/document/SESN-2018-236-01/"
+                },
+                {
+                    "source_name": "Avast CCleaner3 2018",
+                    "description": "Avast Threat Intelligence Team. (2018, March 8). New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities. Retrieved March 15, 2018.",
+                    "url": "https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities"
+                },
+                {
+                    "source_name": "Microsoft Dofoil 2018",
+                    "description": "Windows Defender Research. (2018, March 7). Behavior monitoring combined with machine learning spoils a massive Dofoil coin mining campaign. Retrieved March 20, 2018.",
+                    "url": "https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign/"
+                },
+                {
+                    "source_name": "Command Five SK 2011",
+                    "description": "Command Five Pty Ltd. (2011, September). SK Hack by an Advanced Persistent Threat. Retrieved April 6, 2018.",
+                    "url": "https://www.commandfive.com/papers/C5_APT_SKHack.pdf"
+                },
+                {
+                    "source_name": "Symantec Elderwood Sept 2012",
+                    "description": "O'Gorman, G., and McDonald, G.. (2012, September 6). The Elderwood Project. Retrieved February 15, 2018.",
+                    "url": "http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/the-elderwood-project.pdf"
+                },
+                {
+                    "source_name": "Trendmicro NPM Compromise",
+                    "description": "Trendmicro. (2018, November 29). Hacker Infects Node.js Package to Steal from Bitcoin Wallets. Retrieved April 10, 2019.",
+                    "url": "https://www.trendmicro.com/vinfo/dk/security/news/cybercrime-and-digital-threats/hacker-infects-node-js-package-to-steal-from-bitcoin-wallets"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5e425206-96a8-4fb2-9162-328346dd1a4b",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Software Discovery",
+            "description": "Adversaries may attempt to get a listing of software and software versions that are installed on a system or in a cloud environment. Adversaries may use the information from [Software Discovery](https://attack.mitre.org/techniques/T1518) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nAdversaries may attempt to enumerate software for a variety of reasons, such as figuring out what security measures are present or if the compromised system has a version of software that is vulnerable to [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1518",
+                    "external_id": "T1518"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/580.html",
+                    "external_id": "CAPEC-580"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9f5d44f8-de8a-4083-b203-e8f53ff996cd",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Create or Modify System Process",
+            "description": "Adversaries may create or modify system-level processes to repeatedly execute malicious payloads as part of persistence. When operating systems boot up, they can start processes that perform background system functions. On Windows and Linux, these system processes are referred to as services. (Citation: TechNet Services) On macOS, launchd processes known as [Launch Daemon](https://attack.mitre.org/techniques/T1543/004) and [Launch Agent](https://attack.mitre.org/techniques/T1543/001) are run to finish system initialization and load user specific parameters.(Citation: AppleDocs Launch Agent Daemons) \n\nAdversaries may install new services, daemons, or agents that can be configured to execute at startup or a repeatable interval in order to establish persistence. Similarly, adversaries may modify existing services, daemons, or agents to achieve the same effect.  \n\nServices, daemons, or agents may be created with administrator privileges but executed under root/SYSTEM privileges. Adversaries may leverage this functionality to create or modify system processes in order to escalate privileges. (Citation: OSX Malware Detection).  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1543",
+                    "external_id": "T1543"
+                },
+                {
+                    "source_name": "TechNet Services",
+                    "description": "Microsoft. (n.d.). Services. Retrieved June 7, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/library/cc772408.aspx"
+                },
+                {
+                    "source_name": "AppleDocs Launch Agent Daemons",
+                    "description": "Apple. (n.d.). Creating Launch Daemons and Agents. Retrieved July 10, 2017.",
+                    "url": "https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html"
+                },
+                {
+                    "source_name": "OSX Malware Detection",
+                    "description": "Patrick Wardle. (2016, February 29). Let's Play Doctor: Practical OS X Malware Detection & Analysis. Retrieved July 10, 2017.",
+                    "url": "https://www.synack.com/wp-content/uploads/2016/03/RSA_OSX_Malware.pdf"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f62a4971-e157-4a0c-9642-99613f33cf99",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Boot or Logon Autostart Execution",
+            "description": "Adversaries may configure system settings to automatically execute a program during system boot or logon to maintain persistence or gain higher-level privileges on compromised systems. Operating systems may have mechanisms for automatically running a program on system boot or account logon.(Citation: Microsoft Run Key)(Citation: MSDN Authentication Packages)(Citation: Microsoft TimeProvider)(Citation: Cylance Reg Persistence Sept 2013)(Citation: Linux Kernel Programming)\u00a0 These mechanisms may include automatically executing programs that are placed in specially designated directories or are referenced by repositories that store configuration information, such as the Windows Registry. An adversary may achieve the same goal by modifying or extending features of the kernel.\n\nSince some boot or logon autostart programs run with higher privileges, an adversary may leverage these to elevate privileges.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1547",
+                    "external_id": "T1547"
+                },
+                {
+                    "source_name": "capec",
+                    "url": "https://capec.mitre.org/data/definitions/564.html",
+                    "external_id": "CAPEC-564"
+                },
+                {
+                    "source_name": "Microsoft Run Key",
+                    "description": "Microsoft. (n.d.). Run and RunOnce Registry Keys. Retrieved November 12, 2014.",
+                    "url": "http://msdn.microsoft.com/en-us/library/aa376977"
+                },
+                {
+                    "source_name": "MSDN Authentication Packages",
+                    "description": "Microsoft. (n.d.). Authentication Packages. Retrieved March 1, 2017.",
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/aa374733.aspx"
+                },
+                {
+                    "source_name": "Microsoft TimeProvider",
+                    "description": "Microsoft. (n.d.). Time Provider. Retrieved March 26, 2018.",
+                    "url": "https://msdn.microsoft.com/library/windows/desktop/ms725475.aspx"
+                },
+                {
+                    "source_name": "Cylance Reg Persistence Sept 2013",
+                    "description": "Langendorf, S. (2013, September 24). Windows Registry Persistence, Part 2: The Run Keys and Search-Order. Retrieved April 11, 2018.",
+                    "url": "https://blog.cylance.com/windows-registry-persistence-part-2-the-run-keys-and-search-order"
+                },
+                {
+                    "source_name": "Linux Kernel Programming",
+                    "description": "Pomerantz, O., Salzman, P.. (2003, April 4). The Linux Kernel Module Programming Guide. Retrieved April 6, 2018.",
+                    "url": "https://www.tldp.org/LDP/lkmpg/2.4/lkmpg.pdf"
+                },
+                {
+                    "source_name": "TechNet Autoruns",
+                    "description": "Russinovich, M. (2016, January 4). Autoruns for Windows v13.51. Retrieved June 6, 2016.",
+                    "url": "https://technet.microsoft.com/en-us/sysinternals/bb963902"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d35c44ce-d364-487a-9433-877f71d37f46",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Subvert Trust Controls",
+            "description": "Adversaries may undermine security controls that will either warn users of untrusted activity or prevent execution of untrusted programs. Operating systems and security products may contain mechanisms to identify programs or websites as possessing some level of trust. Examples of such features would include a program being allowed to run because it is signed by a valid code signing certificate, a program prompting the user with a warning because it has an attribute set from being downloaded from the Internet, or getting an indication that you are about to connect to an untrusted site.\n\nAdversaries may attempt to subvert these trust mechanisms. The method adversaries use will depend on the specific mechanism they seek to subvert. Adversaries may conduct [File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222) or [Modify Registry](https://attack.mitre.org/techniques/T1112) in support of subverting these controls.(Citation: SpectorOps Subverting Trust Sept 2017) Adversaries may also create or steal code signing certificates to acquire trust on target systems.(Citation: Securelist Digital Certificates)(Citation: Symantec Digital Certificates) ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1553",
+                    "external_id": "T1553"
+                },
+                {
+                    "source_name": "SpectorOps Subverting Trust Sept 2017",
+                    "description": "Graeber, M. (2017, September). Subverting Trust in Windows. Retrieved January 31, 2018.",
+                    "url": "https://specterops.io/assets/resources/SpecterOps_Subverting_Trust_in_Windows.pdf"
+                },
+                {
+                    "source_name": "Securelist Digital Certificates",
+                    "description": "Ladikov, A. (2015, January 29). Why You Shouldn\u2019t Completely Trust Files Signed with Digital Certificates. Retrieved March 31, 2016.",
+                    "url": "https://securelist.com/why-you-shouldnt-completely-trust-files-signed-with-digital-certificates/68593/"
+                },
+                {
+                    "source_name": "Symantec Digital Certificates",
+                    "description": "Shinotsuka, H. (2013, February 22). How Attackers Steal Private Keys from Digital Certificates. Retrieved March 31, 2016.",
+                    "url": "http://www.symantec.com/connect/blogs/how-attackers-steal-private-keys-digital-certificates"
+                },
+                {
+                    "source_name": "SpectorOps Code Signing Dec 2017",
+                    "description": "Graeber, M. (2017, December 22). Code Signing Certificate Cloning Attacks and Defenses. Retrieved April 3, 2018.",
+                    "url": "https://posts.specterops.io/code-signing-certificate-cloning-attacks-and-defenses-6f98657fc6ec"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--254094da-7914-4df3-803a-1425bf94429c",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Dynamic Resolution",
+            "description": "Adversaries may dynamically establish connections to command and control infrastructure to evade common detections and remediations. This may be achieved by using malware that shares a common algorithm with the infrastructure the adversary uses to receive the malware's communications. These calculations can be used to dynamically adjust parameters such as the domain name, IP address, or port number the malware uses for command and control.\n\nAdversaries may use dynamic resolution for the purpose of [Fallback Channels](https://attack.mitre.org/techniques/T1008). When contact is lost with the primary command and control server malware may employ dynamic resolution as a means to reestablishing command and control.(Citation: Talos CCleanup 2017)(Citation: FireEye POSHSPY April 2017)(Citation: ESET Sednit 2017 Activity)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1568",
+                    "external_id": "T1568"
+                },
+                {
+                    "source_name": "Talos CCleanup 2017",
+                    "description": "Brumaghin, E. et al. (2017, September 18). CCleanup: A Vast Number of Machines at Risk. Retrieved March 9, 2018.",
+                    "url": "http://blog.talosintelligence.com/2017/09/avast-distributes-malware.html"
+                },
+                {
+                    "source_name": "FireEye POSHSPY April 2017",
+                    "description": "Dunwoody, M.. (2017, April 3). Dissecting One of APT29\u2019s Fileless WMI and PowerShell Backdoors (POSHSPY). Retrieved April 5, 2017.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/03/dissecting_one_ofap.html"
+                },
+                {
+                    "source_name": "ESET Sednit 2017 Activity",
+                    "description": "ESET. (2017, December 21). Sednit update: How Fancy Bear Spent the Year. Retrieved February 18, 2019.",
+                    "url": "https://www.welivesecurity.com/2017/12/21/sednit-update-fancy-bear-spent-year/"
+                },
+                {
+                    "source_name": "Data Driven Security DGA",
+                    "description": "Jacobs, J. (2014, October 2). Building a DGA Classifier: Part 2, Feature Engineering. Retrieved February 18, 2019.",
+                    "url": "https://datadrivensecurity.info/blog/posts/2014/Oct/dga-part2/"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a015f14e-3644-4670-b914-a89420bf7753",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "System Services",
+            "description": "Adversaries may abuse system services or daemons to execute commands or programs. Adversaries can execute malicious content by interacting with or creating services. Many services are set to run at boot, which can aid in achieving persistence ([Create or Modify System Process](https://attack.mitre.org/techniques/T1543)), but adversaries can also abuse services for one-time or temporary execution.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1569",
+                    "external_id": "T1569"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--12b83df5-5027-4392-8d05-5f85d151614b",
+            "created": "2020-12-15T03:08:12.119Z",
+            "modified": "2020-12-15T03:08:12.119Z",
+            "name": "Compromise Infrastructure",
+            "description": "Before compromising a victim, adversaries may compromise third-party infrastructure that can be used during targeting. Infrastructure solutions include physical or cloud servers, domains, and third-party web services. Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it during other phases of the adversary lifecycle.(Citation: Mandiant APT1)(Citation: ICANNDomainNameHijacking)(Citation: Talos DNSpionage Nov 2018)(Citation: FireEye EPS Awakens Part 2) Additionally, adversaries may compromise numerous machines to form a botnet they can leverage.\n\nUse of compromised infrastructure allows an adversary to stage, launch, and execute an operation. Compromised infrastructure can help adversary operations blend in with traffic that is seen as normal, such as contact with high reputation or trusted sites. By using compromised infrastructure, adversaries may make it difficult to tie their actions back to them. Prior to targeting, adversaries may compromise the infrastructure of other adversaries.(Citation: NSA NCSC Turla OilRig)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1584",
+                    "external_id": "T1584"
+                },
+                {
+                    "source_name": "Mandiant APT1",
+                    "description": "Mandiant. (n.d.). APT1 Exposing One of China\u2019s Cyber Espionage Units. Retrieved July 18, 2016.",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf"
+                },
+                {
+                    "source_name": "ICANNDomainNameHijacking",
+                    "description": "ICANN Security and Stability Advisory Committee. (2005, July 12). Domain Name Hijacking: Incidents, Threats, Risks and Remediation. Retrieved March 6, 2017.",
+                    "url": "https://www.icann.org/groups/ssac/documents/sac-007-en"
+                },
+                {
+                    "source_name": "Talos DNSpionage Nov 2018",
+                    "description": "Mercer, W., Rascagneres, P. (2018, November 27). DNSpionage Campaign Targets Middle East. Retrieved October 9, 2020.",
+                    "url": "https://blog.talosintelligence.com/2018/11/dnspionage-campaign-targets-middle-east.html"
+                },
+                {
+                    "source_name": "FireEye EPS Awakens Part 2",
+                    "description": "Winters, R.. (2015, December 20). The EPS Awakens - Part 2. Retrieved January 22, 2016.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2015/12/the-eps-awakens-part-two.html"
+                },
+                {
+                    "source_name": "NSA NCSC Turla OilRig",
+                    "description": "NSA/NCSC. (2019, October 21). Cybersecurity Advisory: Turla Group Exploits Iranian APT To Expand Coverage Of Victims. Retrieved October 16, 2020.",
+                    "url": "https://media.defense.gov/2019/Oct/18/2002197242/-1/-1/0/NSA_CSA_Turla_20191021%20ver%204%20-%20nsa.gov.pdf"
+                }
+            ]
+        }
+    ]
+}
