@@ -17,6 +17,7 @@
 	-	Sysmon Queries
 	-	Sigma Query
 	-	Rules by Fire Eye
+	-	STIX Object
 - [Mitigations](#Mitigation)
 	-	Kill switch
 	-	Playbooks
@@ -90,6 +91,10 @@ This Sigma query can be found [here](https://github.com/Neo23x0/sigma/blob/maste
 Global threat intelligence provieder Fire Eye has also released a series of Snort and YARA rules to detect Sunburst and Teardrop malwares used in Solorigate. These rules can be found [here](https://github.com/fireeye/sunburst_countermeasures/tree/main/rules)
 
 ##### [Rules by Fire Eye](https://github.com/fireeye/sunburst_countermeasures/tree/main/rules)
+
+Along with this, we have also created a STIX 2.1 object containing indicators related to the Solawinds attack. This can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/stix.json). The STIX data can also be visualzed for a better overview [here](https://oasis-open.github.io/cti-stix-visualization/)
+
+##### [STIX File](https://github.com/cyware-labs/Solorigate/blob/main/data/stix.json)
 
 ### Mitigation
 
