@@ -113,7 +113,7 @@ This list can be found [here](https://github.com/cyware-labs/Solorigate/blob/mai
 ### Playbooks
 Cyware Labs has created and shared a playbook which can assist defenders handling the attack. This **playbook** can be found [here](https://cyware.com/blog/cywares-soar-response-workflow-for-sunburst-attack-b6e3?utm_campaign=SunBurst&utm_content=150573159&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10407612)
 
-#####[Solorigate Playbook by Cyware Labs](https://cyware.com/blog/cywares-soar-response-workflow-for-sunburst-attack-b6e3?utm_campaign=SunBurst&utm_content=150573159&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10407612)
+##### [Solorigate Playbook by Cyware Labs](https://cyware.com/blog/cywares-soar-response-workflow-for-sunburst-attack-b6e3?utm_campaign=SunBurst&utm_content=150573159&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10407612)
 
 Along with Cyware labs, TrustedSec has released an **incident response playbook** that can be found [here](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "here")
 
@@ -171,3 +171,6 @@ Stay tuned to this repository for more exclusive playbooks and detection methods
 - https://blog.malwarebytes.com/detections/backdoor-sunburst/
 - https://www.optiv.com/solarwinds-orion-compromise
 - https://securityboulevard.com/2020/12/detecting-sunburst-solarigate-activity-in-retrospect-with-zeek-a-practical-example/
+- https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/
+- https://orangematter.solarwinds.com/2021/01/11/new-findings-from-our-investigation-of-sunburst/
+- https://www.guidepointsecurity.com/supernova-solarwinds-net-webshell-analysis/
