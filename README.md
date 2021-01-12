@@ -62,7 +62,13 @@ Shortly after discovery of the Orion hack and indicators, global security vendor
 
 The same can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst.yara "here")
 
-##### [YARA Rule](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst.yara "YARA Rule")
+##### [YARA Rule by FireEye](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst_fireeye.yara "YARA Rule")
+
+Along with FireEye, CrowdStrike has also provided custom yara rules cerated by them for detecting the presence of malware perrtaining to this attack
+
+These rules can be found [here](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst_crowdstrike.yara)
+
+##### [YARA Rule by CrowdStrike](https://github.com/cyware-labs/Solorigate/blob/main/data/sunburst_crowdstrike.yara)
 
 We have also aggregated a mapping to the **MITRE ATT&CK** framework for this campaign as well. 
 
@@ -105,9 +111,13 @@ This list can be found [here](https://github.com/cyware-labs/Solorigate/blob/mai
 ##### [KILL Switches](https://github.com/cyware-labs/Solorigate/blob/main/data/kill_switch.indicators " KILL Switches")
 
 ### Playbooks
-Since the attack, TrustedSec has released an **incident response playbook** that can be found [here](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "here")
+Cyware Labs has created and shared a playbook which can assist defenders handling the attack. This **playbook** can be found [here](https://cyware.com/blog/cywares-soar-response-workflow-for-sunburst-attack-b6e3?utm_campaign=SunBurst&utm_content=150573159&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10407612)
 
-##### [Incident response playbook](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "Incident response playbook")
+#####[Solorigate Playbook by Cyware Labs](https://cyware.com/blog/cywares-soar-response-workflow-for-sunburst-attack-b6e3?utm_campaign=SunBurst&utm_content=150573159&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10407612)
+
+Along with Cyware labs, TrustedSec has released an **incident response playbook** that can be found [here](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "here")
+
+##### [Trusted Sec Incident response playbook](https://www.trustedsec.com/blog/solarwinds-backdoor-sunburst-incident-response-playbook/ "Incident response playbook")
 
 ### Credits-and-Further-Reading
 
